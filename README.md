@@ -6,7 +6,7 @@ Access EasyPost Shipping API via iOS
 EasyPostHelper-iOS
 ============
 
-Simple implementation of the EasyPost API for iOS to get shipmet rates.  
+Simple implementation of the EasyPost API for iOS to get shipment rates.  
 
 
 Dependencies
