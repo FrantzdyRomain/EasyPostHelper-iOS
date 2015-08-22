@@ -9,6 +9,10 @@ EasyPostHelper-iOS
 Simple implementation of the EasyPost API for iOS to get shipmet rates.  
 
 
+Dependencies
+=================
+AFNetworking- https://github.com/AFNetworking/AFNetworking
+*recommend Cocoapods to install
 
 Installation
 =================
@@ -16,6 +20,7 @@ Installation
 1. copy and import  own project.
 2. `#import "EasyPostHelper.h"`
 3. set your EASYPOST_APIKEY in EasyPostHelper.m
+ 
 
 Usage
 =================
