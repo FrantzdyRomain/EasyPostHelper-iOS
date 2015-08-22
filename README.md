@@ -62,6 +62,7 @@ nil];
 2. How get shipment rate data from EasyPost
 --------------------
 ```
+//This example sends an rates response object to the next viewcontroller in my project
 
 [EasyPostHelper getShipmentrates:shipFromDict from:shipFromDict forParcel:dictionaryForParcel completionHandler:^(id responseObject, NSError *error) {
 //Do something after data is returned from the response object
@@ -69,7 +70,7 @@ nil];
 UIStoryboard *storyboard = self.storyboard;
 PlaceOrderViewController *orderDetails = [storyboard instantiateViewControllerWithIdentifier:@"PlaceOrderViewController"];
 
-orderDetails.rates = responseObject;
+orderDetails.rates = responseObject; //orderDetails.rates is an NSArray
 //dismiss loading view and send user on if no errors were found and all forms copleted
 [activityView stopAnimating];
 [self.navigationController pushViewController:orderDetails animated:YES];
