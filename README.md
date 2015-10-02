@@ -1,7 +1,7 @@
 # EasyPostHelper-iOS
 Access EasyPost Shipping API via iOS
 
-
+![alt tag](http://asdfghjkl.me/wp-content/uploads/2015/10/IMG_5041_iphone6plus_gold_portrait.png)
 
 EasyPostHelper-iOS
 ============
